@@ -1,0 +1,1 @@
+Condition: CRITICAL|Life Left:0KM | Change Immediately
