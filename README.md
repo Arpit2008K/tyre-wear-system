@@ -15,6 +15,21 @@ This project simulates tyre wear based on compound type and driving style. It ca
 - Object-Oriented Programming (OOP)
 - File Handling
 
+## Versions
+
+### Version 1 (Basic)
+- Simple tyre wear calculation
+- No menu system
+- No file handling
+
+File: tyre_simulator_v1.cpp
+
+### Version 2 (Improved)
+- Menu-driven system
+- File handling for history
+- Better condition analysis
+
+File: tyre_simulator_v2.cpp
 ## How to Run
 1. Compile the program using a C++ compiler
 2. Run the executable
