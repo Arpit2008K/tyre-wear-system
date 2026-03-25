@@ -1,39 +1,89 @@
 # Tyre Wear Monitoring System
 
-## Overview
-This project simulates tyre wear based on compound type and driving style. It calculates remaining tyre life and provides recommendations.
+> This project demonstrates the evolution from a basic implementation (v1) to an improved system (v2) using C++ and Object-Oriented Programming.
 
-## Features
-- Supports Soft, Medium, Hard tyre compounds
+---
+
+## 📌 Overview
+The Tyre Wear Monitoring System simulates tyre wear based on tyre compound and driving style. It calculates the estimated remaining tyre life and provides recommendations to the user.
+
+---
+
+## ✨ Features
+- Supports tyre compounds: Soft, Medium, Hard
 - Driving styles: Aggressive, Normal, Careful
-- Calculates estimated tyre life in KM
+- Calculates estimated tyre life in kilometers
 - Displays tyre condition (Good / Warning / Critical)
-- Stores tyre history using file handling
+- Menu-driven interface (v2)
+- File handling to store tyre history (v2)
 
-## Technologies Used
+---
+
+## 🧠 Project Evolution
+
+### 🔹 Version 1 (Basic)
+- Basic tyre wear calculation
+- No menu system
+- No file handling
+
+📄 File: `tyre_simulator_v1.cpp`
+
+---
+
+### 🔹 Version 2 (Improved)
+- Menu-driven system
+- File handling for storing tyre history
+- Better user interaction
+- Improved condition analysis
+
+📄 File: `tyre_simulator_v2.cpp`
+
+---
+
+## 🚀 Improvements in Version 2
+- Introduced interactive menu system
+- Added persistent storage using file handling
+- Enhanced user experience
+- Better structured and modular code
+
+---
+
+## 📊 Sample Output
+Enter tyre compound: S
+Enter driving style: A
+Enter tread depth: 3.5
+Tyre Condition: Warning
+Estimated Life Left: 266 KM
+Recommendation: Change tyre soon
+
+---
+
+## 🛠️ Technologies Used
 - C++
 - Object-Oriented Programming (OOP)
 - File Handling
 
-## Versions
+---
 
-### Version 1 (Basic)
-- Simple tyre wear calculation
-- No menu system
-- No file handling
+## ▶️ How to Run
 
-File: tyre_simulator_v1.cpp
+1. Compile the program:
+ g++ tyre_simulator_v2.cpp -o tyre
 
-### Version 2 (Improved)
-- Menu-driven system
-- File handling for history
-- Better condition analysis
+2. Run the program:
+  ./tyre
 
-File: tyre_simulator_v2.cpp
-## How to Run
-1. Compile the program using a C++ compiler
-2. Run the executable
-3. Enter tyre details and driving style
+ 3. Follow the on-screen instructions
 
-## Author
+---
+
+## 🔮 Future Improvements
+- GUI-based interface
+- Integration with IoT sensors for real-time data
+- Database storage instead of text file
+- Mobile or web-based interface
+
+---
+
+## 👨‍💻 Author
 Arpit Kulkarni
